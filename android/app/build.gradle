@@ -55,7 +55,7 @@ def keystorePropertiesFile = rootProject.file('key.properties')
 // To learn key values: keytool -list -v -keystore <keyFile.jks>
 
 android {
-    namespace "com.moonshred.flutter_base_template"
+    namespace "com.moonshred.location_volume"
     compileSdkVersion flutterCompileSdkVersion
     ndkVersion flutterNdkVersion
 
@@ -74,7 +74,7 @@ android {
 
     defaultConfig {
         // TODO: Specify your own unique Application ID (https://developer.android.com/studio/build/application-id.html).
-        applicationId "com.moonshred.flutter_base_template"
+        applicationId "com.moonshred.location_volume"
         // You can update the following values to match your application needs.
         // For more information, see: https://docs.flutter.dev/deployment/android#reviewing-the-gradle-build-configuration.
         minSdkVersion flutterMinSdkVersion

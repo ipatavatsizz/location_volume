@@ -1,6 +1,6 @@
 import 'package:equatable/equatable.dart';
-import 'package:flutter_base_template/product/core/application.dart';
-import 'package:flutter_base_template/product/enum/language_enums.dart';
+import 'package:location_volume/product/core/application.dart';
+import 'package:location_volume/product/enum/language_enums.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 
 enum LanguageCubitStatus { initial, loading, success, failure }

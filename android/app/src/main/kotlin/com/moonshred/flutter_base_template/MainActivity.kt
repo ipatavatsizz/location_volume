@@ -1,4 +1,4 @@
-package com.moonshred.flutter_base_template
+package com.moonshred.location_volume
 
 import io.flutter.embedding.android.FlutterActivity
 

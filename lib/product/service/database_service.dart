@@ -1,4 +1,4 @@
-import 'package:flutter_base_template/product/model/location_model.dart';
+import 'package:location_volume/product/model/location_model.dart';
 import 'package:isar/isar.dart';
 import 'package:path_provider/path_provider.dart';
 
