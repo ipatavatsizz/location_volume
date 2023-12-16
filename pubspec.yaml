@@ -6,6 +6,8 @@ version: 0.1.0
 environment:
   sdk: '>=3.2.2 <4.0.0'
 
+isar_version: &isar_version 3.1.0+1
+
 dependencies:
   flutter:
     sdk: flutter
@@ -16,19 +18,24 @@ dependencies:
   google_fonts: ^6.1.0
   animated_text_kit: ^4.2.2
   ionicons: ^0.2.2
-  # Alternative to ionicons: icons_plus (https://pub.dev/packages/icons_plus)
-  # icons_plus package contains Ionicons, Bootstrap, Flags and much more icons
   equatable: ^2.0.5
   recase: ^4.1.0
   country_flags: ^2.2.0
   package_info_plus: ^5.0.1
   flutter_launcher_icons: ^0.13.1
+  resonance: ^1.0.3
+  geolocator: ^10.1.0
+  flutter_map: ^6.1.0
+  isar: *isar_version
+  isar_flutter_libs: *isar_version
+  path_provider: ^2.1.1
 
 dev_dependencies:
   flutter_test:
     sdk: flutter
   flutter_lints: ^2.0.0
   build_runner: ^2.4.7
+  isar_generator: *isar_version
 
 flutter:
   uses-material-design: true
