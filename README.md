@@ -1,3 +1,3 @@
-# flutter_base_template
+# Location Volume
 
-A new Flutter project.
+A Flutter application for handling preferred device volumes at specific locations at background.
