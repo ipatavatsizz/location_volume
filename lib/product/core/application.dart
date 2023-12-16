@@ -3,6 +3,8 @@ import 'package:flutter/foundation.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 import 'package:flutter_base_template/product/enum/language_enums.dart';
+import 'package:flutter_base_template/product/model/location_model.dart';
+import 'package:flutter_base_template/product/service/database_service.dart';
 import 'package:package_info_plus/package_info_plus.dart';
 
 /// Base class for application related settings
@@ -22,6 +24,9 @@ class Application {
   static Future<void> ensureInitialized() async {
     /// Initialize EasyLocation package
     await EasyLocalization.ensureInitialized();
+
+    /// Initialize DatabaseService service
+    await DatabaseService.ensureInitialized(schemas: [LocationModelSchema]);
 
     /// Set preferred app orientations portrait
     /// Use `SystemChrome.restoreSystemUIOverlays` in case of device orientation issues
