@@ -1,5 +1,5 @@
-name: flutter_base_template
-description: 'A new Flutter Template project.'
+name: location_volume
+description: 'A Flutter application for handling preferred device volumes at specific locations at background.'
 publish_to: 'none'
 version: 0.1.0
 
